@@ -25,19 +25,24 @@ This repository contains automated tests for a web application using Cypress. Th
 This repository contains the following test scripts:
 
 **Registration (cypress/e2e/registration.spec.js)** 
+
 	Description: Completes the user registration process.
 	Functionality: Tests the registration form and ensures that a user can successfully register.
 **Re-Registration (cypress/e2e/re-registration.spec.js)**
+
 	Description: Checks if the error message appears when a user tries to sign up with an already existing username.
 	Functionality: Tests the error handling of the registration form when duplicating usernames.
 **Login (cypress/e2e/login.spec.js)**
+
 	Description: Logs in a registered user, interacts with a button, and selects a specific month from a dropdown menu.
 	Functionality: Tests the login process and interactions with UI elements post-login.
 
 ## To run the tests using Cypress:
 **1. Open Cypress**
+
 	You can open the Cypress Test Runner with the following command: npx cypress open
 **2. Run Tests**
+
 	To run all tests in the headless mode (no GUI), use: npx cypress run
 	Different options in the IDE using: 
  		 a) .\node_modules\.bin\cypress.cmd run 
