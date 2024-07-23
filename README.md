@@ -7,14 +7,17 @@ This repository contains automated tests for a web application using Cypress. Th
 
 ## Installation
 **1. Step 1:**
+
 	a. Check system requirements
 	b. Install Node.js
 	c. Install your preferred IDE - Visual Studio Code/JetBrains Aqua/Eclipse   
 **2. Step 2: Cypress installation process in terminal**
+
 	a.npm init
 	b.npm install cypress --save-dev
 	c.npx cypress open
 **3. Clone the Repository**
+
    a.git clone https://github.com/kristineberke/cypress-automation.git
    b.cd cypress-automation
 
