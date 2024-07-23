@@ -18,8 +18,8 @@ This repository contains automated tests for a web application using Cypress. Th
 	c.npx cypress open
 **3. Clone the Repository**
 
-   a.git clone https://github.com/kristineberke/cypress-automation.git
-   b.cd cypress-automation
+   a. git clone https://github.com/kristineberke/cypress-automation.git
+   b. cd cypress-automation
 
 ## Test Scripts
 This repository contains the following test scripts:
